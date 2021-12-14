@@ -27,6 +27,6 @@ public class StockController {
 
     @PostMapping("/stocks/prices")
     public StocksPricesDto getPrices(@RequestBody FigiesDto figiesDto) {
-        return stockService.getPrices(figiesDto);
+        return stockService.getPricesStocksByFigies(figiesDto);
     }
 }

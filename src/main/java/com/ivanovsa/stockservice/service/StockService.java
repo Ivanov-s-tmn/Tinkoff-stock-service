@@ -7,5 +7,5 @@ public interface StockService {
 
     Stock getStockByTicker(String ticker);
     StocksDto getStocksByTicker(TickersDto tickers);
-    StocksPricesDto getPrices(FigiesDto figiesDto);
+    StocksPricesDto getPricesStocksByFigies(FigiesDto figiesDto);
 }

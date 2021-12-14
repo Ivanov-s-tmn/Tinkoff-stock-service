@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ivanovsa</groupId>
-    <artifactId>StockService</artifactId>
+    <artifactId>TinkoffStockService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>StockService</name>
-    <description>StockService</description>
+    <name>TinkoffStockService</name>
+    <description>TinkoffStockService</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -47,6 +47,25 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
             <version>1.5.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>4.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
